@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<div class="home-page">
+
+  <div class="banner">
+    <div class="container">
+      <h1 class="logo-font" [title]="title">{{title}}</h1>
+      <p [innerHTML]="subtitle"></p>
+    </div>
+  </div>
+  <app-articles [list]="post"></app-articles>
+</div>
+
+
+<footer>
+  <app-footer></app-footer>
+</footer>
